@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment files
+.env
+
+
+# Data files
+/nlp_cookbook/data
+/nlp_spacy/Data
+/Python-Natural-Language-Processing-Cookbook-Second-Edition/

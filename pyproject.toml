@@ -1,19 +1,40 @@
 [project]
 name = "learning-python"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python learning projects"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "accelerate>=1.11.0",
+    "contextualized-topic-models>=2.6.1",
+    "datasets>=4.4.1",
+    "dotenv>=0.9.9",
+    "emoji>=2.15.0",
+    "en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl",
+    "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
+    "evaluate>=0.4.6",
+    "gensim>=4.4.0",
+    "langdetect>=1.0.9",
+    "levenshtein>=0.27.3",
+    "llama-index>=0.10.45.post1",
     "matplotlib>=3.10.7",
+    "nltk>=3.9.2",
     "numpy>=2.3.4",
+    "openai>=2.8.1",
     "pandas>=2.3.3",
+    "pyldavis>=3.4.1",
     "scikit-learn>=1.7.2",
     "scipy>=1.16.3",
     "seaborn>=0.13.2",
+    "sentence-transformers>=5.1.2",
+    "seqeval>=1.2.2",
     "spacy>=3.8.9",
     "textacy>=0.13.0",
+    "textblob>=0.19.0",
+    "thinc>=8.3.9",
     "tokenizers>=0.22.1",
+    "torch>=2.9.1",
+    "transformers>=4.57.1",
 ]
 
 [dependency-groups]
