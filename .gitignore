@@ -15,5 +15,6 @@ wheels/
 
 # Data files
 /nlp_cookbook/data
+/nlp_cookbook/models
 /nlp_spacy/Data
 /Python-Natural-Language-Processing-Cookbook-Second-Edition/
