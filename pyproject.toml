@@ -39,6 +39,9 @@ dependencies = [
     "bertopic>=0.17.3",
     "sentencepiece>=0.2.1",
     "haystack>=0.42",
+    "lime>=0.2.0.1",
+    "anchor>=0.4.0",
+    "anchor-exp>=0.0.2.0",
 ]
 
 [dependency-groups]
